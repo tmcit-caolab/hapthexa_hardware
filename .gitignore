@@ -9,6 +9,8 @@ eagle.epf
 *.gpi
 # Gerber job file (contains Owner e-mail)
 *.gbrjob
+# CAM output folder of each EAGLE project (generated Gerber/drill files)
+**/EAGLE/*/cam/
 
 # ---- AutoCAD / DXF ----
 # Lock files (Windows user name, PC name)
