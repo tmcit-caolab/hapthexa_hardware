@@ -1,0 +1,31 @@
+# ---- EAGLE ----
+# Auto-backup files (contain old copies of the design)
+*.[bs]#[0-9]
+*.l#[0-9]
+# Project/session file (absolute library paths, window layout)
+eagle.epf
+# CAM report files (absolute local paths)
+*.dri
+*.gpi
+# Gerber job file (contains Owner e-mail)
+*.gbrjob
+# CAM output folder of each EAGLE project (generated Gerber/drill files)
+**/EAGLE/*/cam/
+
+# ---- AutoCAD / DXF ----
+# Lock files (Windows user name, PC name)
+*.dwl
+*.dwl2
+*.bak
+
+# ---- Autodesk Inventor ----
+OldVersions/
+*.lck
+
+# ---- OS ----
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- Claude Code (personal settings) ----
+.claude/settings.local.json

@@ -1,0 +1,10 @@
+# ---- Autodesk Inventor design files (binary) ----
+# Treated as binary: no line-ending conversion, no text diff, no text merge.
+*.ipt binary
+*.iam binary
+*.idw binary
+*.ipn binary
+*.ide binary
+*.ipj binary
+# AutoCAD / Inventor drawing
+*.dwg binary
